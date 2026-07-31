@@ -1,0 +1,4 @@
+# If you already cloned the repo, run:
+git submodule update --init --recursive
+# To also pull the latest submodule commits (according to what the parent repo references):
+# git submodule update --recursive --remote
