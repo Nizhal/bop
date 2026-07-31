@@ -1,4 +1,4 @@
 #  
 
-* [English](en/)
-* [](ta/)
+* [English](byte-of-python/)
+* [](PyBy/)
