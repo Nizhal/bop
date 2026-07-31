@@ -1,0 +1,8 @@
+{
+    "pdf": {
+        "embedFonts": true
+        },
+    "styles": {
+        "website": "ta//.css"
+        }
+}  
