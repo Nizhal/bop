@@ -1,6 +1,1 @@
-[submodule "PyBy"]
-	path = PyBy
-	url = https://github.com/TACE16/PyBy
-[submodule "byte-of-python"]
-	path = byte-of-python
-	url = https://github.com/swaroopch/byte-of-python
+
