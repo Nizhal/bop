@@ -1,0 +1,28 @@
+# If you already cloned the repo, run:
+git submodule update --init --recursive
+# To also pull the latest submodule commits (according to what the parent repo references):
+# git submodule update --recursive --remote
+
+workspace: MyProject
+
+repos:
+
+  - name: backend
+    url: git@github.com:company/backend.git
+    branch: main
+
+  - name: frontend
+    url: git@github.com:company/frontend.git
+    branch: main
+
+  - name: docs
+    url: git@github.com:company/docs.git
+    branch: main
+
+  - name: website
+    url: git@github.com:company/website.git
+    branch: gh-pages
+
+  - name: translations
+    url: git@github.com:company/translations.git
+    branch: main

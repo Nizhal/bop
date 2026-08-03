@@ -1,0 +1,4 @@
+repositories:
+  backend:
+    url: git@github.com:company/backend.git
+    branch: main

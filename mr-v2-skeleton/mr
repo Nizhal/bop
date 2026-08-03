@@ -1,0 +1,8 @@
+#!/bin/bash
+DIR="$(cd "$(dirname "$0")" && pwd)"
+cmd="$1"; shift
+case "$cmd" in
+ clone|update|status|fetch|pull|push|checkout|branch|tag|foreach|clean|gc|log|diff|remotes|sync|doctor)
+   exec "$DIR/commands/$cmd.sh" "$@";;
+ *) echo "Usage: mr {clone|update|status|doctor|...}";;
+esac
